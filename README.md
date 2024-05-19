@@ -12,3 +12,5 @@ Martynas Ycas
 
 ## Enlaces
 - [Video de la actividad 10](https://drive.google.com/file/d/10sVB5vCdPWT9VQdDsuQ4IxibCSl-Mkba/view?usp=sharing)
+
+https://marty1120.github.io/mysticmote-games/
