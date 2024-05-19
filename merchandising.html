@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MysticMote Games - Merchandising</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <a href="#mainContent" class="skip-link">Saltar al contenido principal</a>
+    <header>
+        <img src="logo.png" alt="MysticMote Games Logo">
+        <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+        <h1>MysticMote Games</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="juegos.html">Juegos</a></li>
+                <li><a href="informacion.html">Sobre nosotros</a></li>
+                <li><a href="merchandising.html">Merchandising</a></li>
+                <li><a href="carrito.html"><img src="carrito.png" alt="Carrito" style="width: 24px; vertical-align: middle;"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="mainContent">
+        <section class="merchandising container my-5">
+            <article>
+                <img src="merch1.png" alt="Camiseta 1">
+                <div class="product-info">
+                    <p class="price">19.99€</p>
+                    <button class="btn buy" data-id="1" data-name="Camiseta 1" data-price="19.99">Añadir al carrito</button>
+                    <button class="btn more-info">Ver más</button>
+                </div>
+            </article>
+            <article>
+                <img src="merch2.png" alt="Sudadera">
+                <div class="product-info">
+                    <p class="price">24.99€</p>
+                    <button class="btn buy" data-id="2" data-name="Sudadera" data-price="24.99">Añadir al carrito</button>
+                    <button class="btn more-info">Ver más</button>
+                </div>
+            </article>
+            <article>
+                <img src="merch3.png" alt="Gorra">
+                <div class="product-info">
+                    <p class="price">29.99€</p>
+                    <button class="btn buy" data-id="3" data-name="Gorra" data-price="29.99">Añadir al carrito</button>
+                    <button class="btn more-info">Ver más</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Email: Mysticmote@gmail.com</p>
+        <div class="social-media">
+            <a href="#"><img src="twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+        </div>
+        <p>Copyright © 2023 MysticMote</p>
+    </footer>
+
+    <button id="backToTop" style="display: none;">↑ Subir</button>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
