@@ -3,7 +3,7 @@
 Este es el sitio web oficial de MysticMote Games, una empresa dedicada a la creación de experiencias de juego únicas que combinan lo místico con la magia digital del gaming.
 
 ## Autor
-Nombre del Autor
+Martynas Ycas
 
 ## Actividades
 - Desarrollo de la página web con HTML, CSS y JavaScript.
